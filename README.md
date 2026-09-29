@@ -5,20 +5,20 @@
 Archived coursework: the group term project for LIS4761 Data Mining and Analytics (Fall 2021). We looked at which physicochemical properties drive red wine quality and classified 1,599 Vinho Verde red wines into quality categories. There is no code here, only the dataset, the Orange3 workflow, weekly reports and the presentations.
 
 ### ✨ What's in it
-- 📊 `Copy of winequality-red.csv`: the UCI Red Wine Quality dataset with an added `quality category` column (poor / good / excellent)
+- 📊 `winequality-red.csv`: the UCI Red Wine Quality dataset with an added `quality category` column (poor / good / excellent)
 - 🔗 Correlation analysis of every attribute against quality (alcohol, volatile acidity and sulphates had the strongest effect)
 - 🤖 Random Forest, Naive Bayes and Random Tree classifiers in Weka with 10-fold cross validation, about 82% accuracy each
-- 🧩 `Copy of Orange Workflow.ows`: the Orange3 workflow used for the visualizations
-- 📝 Proposal, weekly reports, midterm and final presentations, and the final report (`Copy of Final Report Group 4_.docx`)
+- 🧩 `Orange Workflow.ows`: the Orange3 workflow used for the visualizations
+- 📝 Proposal, weekly reports, midterm and final presentations, and the final report (`Final Report Group 4_.docx`)
 
 ### 🖼️ Charts
-![Quality distribution](Copy%20of%20quality%20distribution.png)
-![Correlations](Copy%20of%20correlations.png)
-![Quality vs alcohol](Copy%20of%20quality%20v%20alcohol.png)
-![Quality vs volatile acidity](Copy%20of%20quality%20v%20volitile%20acidity.png)
+![Quality distribution](quality%20distribution.png)
+![Correlations](correlations.png)
+![Quality vs alcohol](quality%20v%20alcohol.png)
+![Quality vs volatile acidity](quality%20v%20volitile%20acidity.png)
 
 ### 🚀 Opening it
-- Open the `.ows` file in [Orange3](https://orangedatamining.com/) and point its CSV File Import widget at `Copy of winequality-red.csv`.
+- Open the `.ows` file in [Orange3](https://orangedatamining.com/) and point its CSV File Import widget at `winequality-red.csv`.
 - Load the CSV in [Weka](https://waikato.github.io/weka-wiki/) to rerun the classifiers.
 
 ### 🙌 Credits
